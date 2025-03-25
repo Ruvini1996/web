@@ -1,1 +1,21 @@
+:root {
+    --primary: #2A5C82;
+    --secondary: #4ECDC4;
+    --accent: #FF6B6B;
+    --dark: #1a1a1a;
+    --light: #ffffff;
+    --gradient: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+}
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--light);
+}
+
+/* Add all CSS styles from previous answer here */
